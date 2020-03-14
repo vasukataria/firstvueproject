@@ -5,6 +5,8 @@ import './assets/css/all.css'
 import './assets/css/style.css'
 import './assets/css/jquery.fancybox.min.css'
 import './assets/css/owl.carousel.min.css'
+import './assets/vendor/bootstrap/css/bootstrap.min.css'
+import './assets/vendor/jquery/jquery.min.js'
 
 
 Vue.config.productionTip = false
@@ -14,8 +16,4 @@ new Vue({
   render: h => h(App)
 }).$mount('#app')
 
-module.exports = {
-  "rules": {
-    "no-mixed-spaces-and-tabs": 0, // disable rule
-  }
-}
+
