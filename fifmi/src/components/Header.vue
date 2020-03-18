@@ -1,5 +1,5 @@
 <template>
- <div class="header">
+    <div class="">
             <div class="top-bar bg-primary py-2">
                 <div class="container">
                     <div class="row">
@@ -153,16 +153,11 @@
 </template>
 
 <script>
-
-export default{
-
-    }
-
-
-
+export default {
+}
 </script>
 
-<style>
 
+<style>
 
 </style>
