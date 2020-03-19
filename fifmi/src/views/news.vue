@@ -18,7 +18,7 @@
                                     <div class="news-content">
                                         <h5>Apostles Update</h5>
                                         <p>Dear Friends Bindura Night of Miracles3000 people thronged the cathedral and rays...</p>
-                                        <a href="#" class="btn btn-primary">Read More</a>
+                                        <router-link to="singledetail" class="btn btn-primary">Read More</router-link>
                                     </div>
                                 </div>
                             </div>
@@ -34,7 +34,7 @@
                                     <div class="news-content">
                                         <h5>Apostles Update</h5>
                                         <p>Dear Friends Bindura Night of Miracles3000 people thronged the cathedral and rays...</p>
-                                        <a href="#" class="btn btn-primary">Read More</a>
+                                        <router-link to="singledetail" class="btn btn-primary">Read More</router-link>
                                     </div>
                                 </div>
                             </div>
@@ -50,7 +50,7 @@
                                     <div class="news-content">
                                         <h5>Apostles Update</h5>
                                         <p>Dear Friends Bindura Night of Miracles3000 people thronged the cathedral and rays...</p>
-                                        <a href="#" class="btn btn-primary">Read More</a>
+                                        <router-link to="singledetail" class="btn btn-primary">Read More</router-link>
                                     </div>
                                 </div>
                             </div>
@@ -66,7 +66,7 @@
                                     <div class="news-content">
                                         <h5>Apostles Update</h5>
                                         <p>Dear Friends Bindura Night of Miracles3000 people thronged the cathedral and rays...</p>
-                                        <a href="#" class="btn btn-primary">Read More</a>
+                                        <router-link to="singledetail" class="btn btn-primary">Read More</router-link>
                                     </div>
                                 </div>
                             </div>
@@ -82,7 +82,7 @@
                                     <div class="news-content">
                                         <h5>Apostles Update</h5>
                                         <p>Dear Friends Bindura Night of Miracles3000 people thronged the cathedral and rays...</p>
-                                        <a href="#" class="btn btn-primary">Read More</a>
+                                        <router-link to="singledetail" class="btn btn-primary">Read More</router-link>
                                     </div>
                                 </div>
                             </div>
@@ -98,7 +98,7 @@
                                     <div class="news-content">
                                         <h5>Apostles Update</h5>
                                         <p>Dear Friends Bindura Night of Miracles3000 people thronged the cathedral and rays...</p>
-                                        <a href="#" class="btn btn-primary">Read More</a>
+                                        <router-link to="#" class="btn btn-primary">Read More</router-link>
                                     </div>
                                 </div>
                             </div>
@@ -107,11 +107,11 @@
                     <div class="col-12 col-lg-3">
                         <div class="right-title">
                             <h5>Ezekiel Tv</h5>
-                            <a href="#" class="right-newsimg"><img src="../assets/images/news.jpg" alt="" class="img-fluid" /></a>
+                            <router-link to="#" class="right-newsimg"><img src="../assets/images/news.jpg" alt="" class="img-fluid" /></router-link>
                         </div>
                         <hr>
                         <div class="eventdiv">
-                            <a href="#"><img src="../assets/images/event.jpg" alt="" class="img-fluid" /></a>
+                            <router-link to="#"><img src="../assets/images/event.jpg" alt="" class="img-fluid" /></router-link>
                         </div>
                         <hr>
                         <div class="right-title">
@@ -130,7 +130,7 @@
                                 </div>
                             </form>
                             <div class="text-dark text-center">
-                                Create an account <a href="#"><u>Register</u></a>
+                                Create an account <router-link to="#"><u>Register</u></router-link>
                             </div>
                         </div>
                         <hr>
@@ -138,7 +138,7 @@
                             <h5>Recent Comments</h5>
                             <ul class="list-unstyled mb-0 comment-list">
                                 <li>
-                                    <a href="#" class="text-light">
+                                    <router-link to="#" class="text-light">
                                         <div class="commentimg shrink-effect float-left mr-3">
                                             <img src="../assets/images/comment.jpg" alt="" class="img-fluid" />
                                         </div>
@@ -146,21 +146,10 @@
                                             <h6 class="mb-1">Glory be to the Almighty God</h6>
                                             <span><i class="fa fa-calendar"></i> 2 years 45 weeks ago</span>
                                         </div>
-                                    </a>
+                                    </router-link>
                                 </li>
                                 <li>
-                                    <a href="#" class="text-light">
-                                        <div class="commentimg shrink-effect float-left mr-3">
-                                            <img src="images/comment.jpg" alt="" class="img-fluid" />
-                                        </div>
-                                        <div class="comment-txt">
-                                            <h6 class="mb-1">Glory be to the Almighty God</h6>
-                                            <span><i class="fa fa-calendar"></i> 2 years 45 weeks ago</span>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="text-light">
+                                    <router-link to="#" class="text-light">
                                         <div class="commentimg shrink-effect float-left mr-3">
                                             <img src="../assets/images/comment.jpg" alt="" class="img-fluid" />
                                         </div>
@@ -168,7 +157,18 @@
                                             <h6 class="mb-1">Glory be to the Almighty God</h6>
                                             <span><i class="fa fa-calendar"></i> 2 years 45 weeks ago</span>
                                         </div>
-                                    </a>
+                                    </router-link>
+                                </li>
+                                <li>
+                                    <router-link to="#" class="text-light">
+                                        <div class="commentimg shrink-effect float-left mr-3">
+                                            <img src="../assets/images/comment.jpg" alt="" class="img-fluid" />
+                                        </div>
+                                        <div class="comment-txt">
+                                            <h6 class="mb-1">Glory be to the Almighty God</h6>
+                                            <span><i class="fa fa-calendar"></i> 2 years 45 weeks ago</span>
+                                        </div>
+                                    </router-link>
                                 </li>
                             </ul>
                         </div>

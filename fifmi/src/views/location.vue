@@ -70,7 +70,7 @@
                                         <td>-</td>
                                         <td>Zimbabwe</td>
                                         <td>-</td>
-                                        <td>-</td>
+                           <td><router-link to="locationdetail">-</router-link></td>
                                     </tr>
                                     <tr>
                                         <td>AMFCC Bible School</td>
@@ -81,7 +81,7 @@
                                         <td>-</td>
                                         <td>Zimbabwe</td>
                                         <td>-</td>
-                                        <td>-</td>
+                                        <td><router-link to="locationdetail">-</router-link></td>
                                     </tr>
                                     <tr>
                                         <td>AMFCC Bible School</td>
@@ -92,7 +92,7 @@
                                         <td>-</td>
                                         <td>Zimbabwe</td>
                                         <td>-</td>
-                                        <td>-</td>
+                                        <td><router-link to="locationdetail">-</router-link></td>
                                     </tr>
                                     <tr>
                                         <td>AMFCC Bible School</td>
@@ -103,7 +103,7 @@
                                         <td>-</td>
                                         <td>Zimbabwe</td>
                                         <td>-</td>
-                                        <td>-</td>
+                                        <td><router-link to="locationdetail">-</router-link></td>
                                     </tr>
                                     <tr>
                                         <td>AMFCC Bible School</td>
@@ -114,7 +114,7 @@
                                         <td>-</td>
                                         <td>Zimbabwe</td>
                                         <td>-</td>
-                                        <td>-</td>
+                                        <td><router-link to="locationdetail">-</router-link></td>
                                     </tr>
                                     <tr>
                                         <td>AMFCC Bible School</td>
@@ -125,7 +125,7 @@
                                         <td>-</td>
                                         <td>Zimbabwe</td>
                                         <td>-</td>
-                                        <td>-</td>
+                                        <td><router-link to="locationdetail">-</router-link></td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -138,11 +138,5 @@
 
 
 
-<div>
+</div>
 </template>
-
-<script>
-export default {
-
-}
-</script>

@@ -105,31 +105,3 @@
         </section>
         </div>
 </template>
-<script>
-import Swiper from '../assets/js/swiper.min.js'
-import GreenAudioPlayer from '../assets/js/green-audio-player.js'
-export default {
-  name: '',
-  data(){
- return {
-   swiper: "",
-   marquee: "",
- }
-},
- mounted() {
-    document.addEventListener('DOMContentLoaded', function() {
-                new GreenAudioPlayer('.ready-player-1');
-            });
-
-            //Top Slider
-            this.swiper = new Swiper('#marquee', {
-              effect: 'fade',
-              autoplay: {
-                delay: 1500,
-                disableOnInteraction: false,
-              },
-            });
- 
-}
-}
-</script>

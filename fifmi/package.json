@@ -12,10 +12,14 @@
     "@fortawesome/free-solid-svg-icons": "^5.12.1",
     "@fortawesome/vue-fontawesome": "^0.1.9",
     "core-js": "^3.6.4",
+    "jquery-datetimepicker": "^2.5.21",
+    "jqueryui": "^1.11.1",
     "vue": "^2.6.11",
     "vue-icon-font": "^1.0.4",
     "vue-material-design-icons": "^4.4.0",
     "vue-router": "^3.1.6",
+    "vue-simple-calendar": "^4.3.2",
+    "vuejs-calendar": "^1.0.5",
     "vuetify": "^2.2.11"
   },
   "devDependencies": {

@@ -6,32 +6,32 @@
                         <div class="col-12 col-md-7">
                             <ul class="list-inline mb-0 toplink text-center text-md-left">
                                 <li class="list-inline-item">
-                                    <a href="#" class="text-white">Contact us</a>
+                                   <router-link to="contact" class="text-white">Contact us</router-link>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="#" class="text-white">Webmail</a>
+                                    <router-link to="#" class="text-white">Webmail</router-link>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="#" class="text-white">Login</a>
+                                    <router-link to="#" class="text-white">Login</router-link>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="#" class="text-white">Sign In</a>
+                                    <router-link to="#" class="text-white">Sign In</router-link>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="#" class="text-white">FAQ</a>
+                                   <router-link to="#" class="text-white">FAQ</router-link>
                                 </li>
                             </ul>
                         </div>
                         <div class="col-12 col-md-5">
                             <ul class="list-inline mb-0 topsocial text-center text-md-right">
                                 <li class="list-inline-item">
-                                    <a href="#" class="text-white"><i class="icofont icofont-facebook"></i></a>
+                                    <router-link to="#" class="text-white"><i class="icofont icofont-facebook"></i></router-link>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="#" class="text-white"><i class="icofont icofont-twitter"></i></a>
+                                    <router-link to="#" class="text-white"><i class="icofont icofont-twitter"></i></router-link>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="#" class="text-white"><i class="icofont icofont-google-plus"></i></a>
+                                   <router-link to="#" class="text-white"><i class="icofont icofont-google-plus"></i></router-link>
                                 </li>
                             </ul>
                         </div>
@@ -42,7 +42,7 @@
                 <div class="container">
                     <div class="row align-items-center py-3">
                         <div class="col-12 col-md-4">
-                            <a href="#" class="site-logo"><img src="../assets/images/logo-dark.png" alt="" class="img-fluid" /></a>
+                            <router-link to="/" class="site-logo"><img src="../assets/images/logo-dark.png" alt="" class="img-fluid"></router-link>
                             <button class="navbar-toggler d-md-none" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                                 <span class="navbar-toggler-icon"></span>
@@ -53,7 +53,7 @@
                             <div id="marquee" class="swiper-container">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide">
-                                        <a href="#" class="text-light">
+                                        <router-link to="#" class="text-light">
                                             <div class="head-author d-flex flex-wrap justify-content-center">
                                                 <div class="author-image float-left mr-3">
                                                     <img src="../assets/images/author.png" alt="" class="img-fluid" />
@@ -65,10 +65,10 @@
                                                     </span>
                                                 </div>
                                             </div>
-                                        </a>
+                                        </router-link>
                                     </div>
                                     <div class="swiper-slide">
-                                        <a href="#" class="text-light">
+                                        <router-link to="#" class="text-light">
                                             <div class="head-author d-flex flex-wrap justify-content-center">
                                                 <div class="author-image float-left mr-3">
                                                     <img src="../assets/images/img2.jpg" alt="" class="img-fluid" />
@@ -80,7 +80,7 @@
                                                     </span>
                                                 </div>
                                             </div>
-                                        </a>
+                                        </router-link>
                                     </div>
                                 </div>
                             </div>
@@ -101,48 +101,48 @@
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav">
                                 <li class="nav-item active">
-                                    <a class="nav-link" href="#"><i class="icofont icofont-home"></i></a>
+                                    <router-link class="nav-link" to="/"><i class="icofont icofont-home"></i></router-link>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link" href="#" data-toggle="dropdown">About Us</a>
+                                    <router-link class="nav-link" to="About" data-toggle="dropdown">About Us</router-link>
                                     <div class="dropdown-menu rounded-0 border-0 m-0">
-                                        <a class="dropdown-item" href="#">Our Founders</a>
-                                        <a class="dropdown-item" href="#">Our History</a>
-                                        <a class="dropdown-item" href="#">Statement Of Faith</a>
-                                        <a class="dropdown-item" href="#">Our Beliefs</a>
+                                        <router-link class="dropdown-item" to="#">Our Founders</router-link>
+                                        <router-link class="dropdown-item" to="#">Our History</router-link>
+                                       <router-link class="dropdown-item" to="#">Statement Of Faith</router-link>
+                                        <router-link class="dropdown-item" to="#">Our Beliefs</router-link>
                                     </div>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link" href="#" data-toggle="dropdown">Ministries</a>
+                                    <router-link class="nav-link" to="#" data-toggle="dropdown">Ministries</router-link>
                                     <div class="dropdown-menu rounded-0 border-0 m-0">
-                                        <a class="dropdown-item" href="#">Men Of Integrity Youth</a>
-                                        <a class="dropdown-item" href="#">Praise and Worship</a>
-                                        <a class="dropdown-item" href="#">Ladies Ministry</a>
+                                        <router-link class="dropdown-item" to="#">Men Of Integrity Youth</router-link>
+                                        <router-link class="dropdown-item" to="#">Praise and Worship</router-link>
+                                        <router-link class="dropdown-item" to="#">Ladies Ministry</router-link>
                                     </div>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">News</a>
+                                    <router-link class="nav-link" to="news">News</router-link>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Bible School</a>
+                                    <router-link class="nav-link" to="bibleschool">Bible School</router-link>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Media</a>
+                                    <router-link class="nav-link" to="media">Media</router-link>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Community Store</a>
+                                    <router-link class="nav-link" to="#">Community Store</router-link>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">FAQ</a>
+                                   <router-link class="nav-link" to="#">FAQ</router-link>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Location</a>
+                                    <router-link class="nav-link" to="location">Location</router-link>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Event/Prayers</a>
+                                   <router-link class="nav-link" to="events">Event/Prayers</router-link>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Contact Us</a>
+                                   <router-link class="nav-link" to="contact">Contact Us</router-link>
                                 </li>
                             </ul>
                         </div>

@@ -367,8 +367,12 @@ a.text-light:focus, a.text-light:hover{
     position: relative;
     bottom: 10px;
     display: inline-flex;
-    left: 0;
-    right: 0;
+}
+#testimonial-slider .swiper-button-prev {
+    left: -2px;
+}
+#testimonial-slider .swiper-button-next {
+    right: -2px;
 }
 .visit-list {
     font-size: 16px;

@@ -263,7 +263,6 @@
 <script>
 
 // @ is an alias to /src
-import GreenAudioPlayer from '../assets/js/green-audio-player.js'
 import Swiper from '../assets/js/swiper.min.js'
 export default {
   name: 'Hello',
@@ -276,9 +275,6 @@ export default {
  }
 },
   mounted() {
-   document.addEventListener('DOMContentLoaded', function() {
-        new GreenAudioPlayer('.ready-player-1');
-    });
       //Home Slider
             this.swiper = new Swiper('#home-slider', {
                 effect: 'fade',
@@ -309,15 +305,6 @@ export default {
                 navigation: {
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
-              },
-            });
-
-            //Top Slider
-            this.marquee = new Swiper('#marquee', {
-              effect: 'fade',
-              autoplay: {
-                delay: 1500,
-                disableOnInteraction: false,
               },
             });
    },

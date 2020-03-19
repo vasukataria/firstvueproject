@@ -38,7 +38,7 @@
                                     <div class="col-12 col-sm-6 col-lg-6 filter Explos">
                                         <div class="gallery-item position-relative">
                                             <div class="gallery-image gradient-bt">
-                                                <img class="img-fluid img-lg" src="images/news1.jpg" alt="">
+                                                <img class="img-fluid img-lg" src="../assets/images/news1.jpg" alt="">
                                             </div>
                                             <div class="gallery-overlay w-100 h-100 text-center">
                                                 <div class="content d-table w-100 h-100">
@@ -54,13 +54,13 @@
                                     <div class="col-12 col-sm-6 col-lg-3 filter Projects">
                                         <div class="gallery-item position-relative">
                                             <div class="gallery-image gradient-bt">
-                                                <img class="img-fluid img-sm" src="images/news2.jpg" alt="">
+                                                <img class="img-fluid img-sm" src="../assets/images/news2.jpg" alt="">
                                             </div>
                                             <div class="gallery-overlay w-100 h-100 text-center">
                                                 <div class="content d-table w-100 h-100">
                                                     <div class="content d-table-cell w-100 h-100 align-middle">
                                                         <div class="popup-gallery bg-white rounded-50 mx-auto">
-                                                            <a href="images/news2.jpg" class="text-light"><img src="images/ezikel.png" alt="" class="img-fluid" /></a>
+                                                            <a href="images/news2.jpg" class="text-light"><img src="../assets/images/ezikel.png" alt="" class="img-fluid" /></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -68,13 +68,13 @@
                                         </div>
                                         <div class="gallery-item position-relative">
                                             <div class="gallery-image gradient-bt">
-                                                <img class="img-fluid img-sm" src="images/news3.jpg" alt="">
+                                                <img class="img-fluid img-sm" src="../assets/images/news3.jpg" alt="">
                                             </div>
                                             <div class="gallery-overlay w-100 h-100 text-center">
                                                 <div class="content d-table w-100 h-100">
                                                     <div class="content d-table-cell w-100 h-100 align-middle">
                                                         <div class="popup-gallery bg-white rounded-50 mx-auto">
-                                                            <a href="images/news3.jpg" class="text-light"><img src="images/ezikel.png" alt="" class="img-fluid" /></a>
+                                                            <a href="images/news3.jpg" class="text-light"><img src="../assets/images/ezikel.png" alt="" class="img-fluid" /></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -84,7 +84,7 @@
                                     <div class="col-12 col-sm-6 col-lg-3 filter Apostles">
                                         <div class="gallery-item position-relative">
                                             <div class="gallery-image gradient-bt">
-                                                <img class="img-fluid img-sm" src="images/news2.jpg" alt="">
+                                                <img class="img-fluid img-sm" src="../assets/images/news2.jpg" alt="">
                                             </div>
                                             <div class="gallery-overlay w-100 h-100 text-center">
                                                 <div class="content d-table w-100 h-100">
@@ -98,7 +98,7 @@
                                         </div>
                                         <div class="gallery-item position-relative">
                                             <div class="gallery-image gradient-bt">
-                                                <img class="img-fluid img-sm" src="images/news3.jpg" alt="">
+                                                <img class="img-fluid img-sm" src="../assets/images/news3.jpg" alt="">
                                             </div>
                                             <div class="gallery-overlay w-100 h-100 text-center">
                                                 <div class="content d-table w-100 h-100">
@@ -114,13 +114,13 @@
                                     <div class="col-12 col-sm-6 col-lg-3 filter Projects">
                                         <div class="gallery-item position-relative">
                                             <div class="gallery-image gradient-bt">
-                                                <img class="img-fluid img-sm" src="images/news2.jpg" alt="">
+                                                <img class="img-fluid img-sm" src="../assets/images/news2.jpg" alt="">
                                             </div>
                                             <div class="gallery-overlay w-100 h-100 text-center">
                                                 <div class="content d-table w-100 h-100">
                                                     <div class="content d-table-cell w-100 h-100 align-middle">
                                                         <div class="popup-gallery bg-white rounded-50 mx-auto">
-                                                            <a href="images/news2.jpg" class="text-light"><img src="images/ezikel.png" alt="" class="img-fluid" /></a>
+                                                            <a href="images/news2.jpg" class="text-light"><img src="../assets/images/ezikel.png" alt="" class="img-fluid" /></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -128,13 +128,13 @@
                                         </div>
                                         <div class="gallery-item position-relative">
                                             <div class="gallery-image gradient-bt">
-                                                <img class="img-fluid img-sm" src="images/news3.jpg" alt="">
+                                                <img class="img-fluid img-sm" src="../assets/images/news3.jpg" alt="">
                                             </div>
                                             <div class="gallery-overlay w-100 h-100 text-center">
                                                 <div class="content d-table w-100 h-100">
                                                     <div class="content d-table-cell w-100 h-100 align-middle">
                                                         <div class="popup-gallery bg-white rounded-50 mx-auto">
-                                                            <a href="images/news3.jpg" class="text-light"><img src="images/ezikel.png" alt="" class="img-fluid" /></a>
+                                                            <a href="images/news3.jpg" class="text-light"><img src="../assets/images/ezikel.png" alt="" class="img-fluid" /></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -144,7 +144,7 @@
                                     <div class="col-12 col-sm-6 col-lg-3 filter Apostles">
                                         <div class="gallery-item position-relative">
                                             <div class="gallery-image gradient-bt">
-                                                <img class="img-fluid img-sm" src="images/news2.jpg" alt="">
+                                                <img class="img-fluid img-sm" src="../assets/images/news2.jpg" alt="">
                                             </div>
                                             <div class="gallery-overlay w-100 h-100 text-center">
                                                 <div class="content d-table w-100 h-100">
@@ -158,7 +158,7 @@
                                         </div>
                                         <div class="gallery-item position-relative">
                                             <div class="gallery-image gradient-bt">
-                                                <img class="img-fluid img-sm" src="images/news3.jpg" alt="">
+                                                <img class="img-fluid img-sm" src="../assets/images/news3.jpg" alt="">
                                             </div>
                                             <div class="gallery-overlay w-100 h-100 text-center">
                                                 <div class="content d-table w-100 h-100">
@@ -174,7 +174,7 @@
                                     <div class="col-12 col-sm-6 col-lg-6 filter Explos">
                                         <div class="gallery-item position-relative">
                                             <div class="gallery-image gradient-bt">
-                                                <img class="img-fluid img-lg" src="images/news1.jpg" alt="">
+                                                <img class="img-fluid img-lg" src="../assets/images/news1.jpg" alt="">
                                             </div>
                                             <div class="gallery-overlay w-100 h-100 text-center">
                                                 <div class="content d-table w-100 h-100">
@@ -268,6 +268,55 @@
 </template>
 
 <script>
-export default{
+import $ from 'jquery'
+
+export default {
+  name: '',
+ data(){
+ return {
+   value: "",
+ }
+},
+mounted(){
+    $(document).ready(function(){
+        $(".filter-button").click(function(){
+            this.value = $(this).attr('data-filter');
+            $('.filter-button').removeClass('active');
+            $(this).addClass('active');
+            if(this.value == "all")
+            {
+                $('.filter').show('1000');
+            }
+            else{
+                $('.filter').removeClass('active');    
+                $(".filter").not('.'+this.value).hide('3000');
+                $('.filter').filter('.'+this.value).show('3000');
+            }
+        });
+        
+        //magnificPopup
+        $('.popup-gallery').magnificPopup({
+            delegate: 'a',
+            type: 'image',
+            mainClass: 'mfp-img-mobile',
+            gallery: {
+                enabled: true,
+                navigateByImgClick: true,
+                preload: [0,1]
+            },
+        });
+
+        //magnificPopup Video
+        $('.popup-youtube a').magnificPopup({
+            disableOn: 700,
+            type: 'iframe',
+            mainClass: 'mfp-fade',
+            removalDelay: 160,
+            preloader: false,
+            fixedContentPos: true
+        });
+    });
+
+}
 }
 </script>   
