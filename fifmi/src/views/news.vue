@@ -6,99 +6,19 @@
                 <div class="row">
                     <div class="col-12 col-lg-9 mb-5 mb-lg-0">
                         <div class="row">
-                            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                            <div class="col-12 col-md-6 col-lg-4 mb-4" v-for="(obj,key) in ServiceJSON" :key="key">
                                 <div class="news-block text-center position-relative">
                                     <div class="news-image shrink-effect position-relative gradient-bt">
-                                        <img src="../assets/images/news1.jpg" alt="" class="img-fluid" />
+                                        <img v-bind:src="obj.img" alt="" class="img-fluid" />
                                         <div class="news-author text-white bg-primary text-white">
                                             <span><i class="fa fa-user-o"></i> by drlaverne</span>
                                             <span><i class="fa fa-calendar"></i> July 9 2018</span>
                                         </div>
                                     </div>
                                     <div class="news-content">
-                                        <h5>Apostles Update</h5>
-                                        <p>Dear Friends Bindura Night of Miracles3000 people thronged the cathedral and rays...</p>
+                                        <h5>{{obj.title}}</h5>
+                                        <p>{{obj.desc}}</p>
                                         <router-link to="singledetail" class="btn btn-primary">Read More</router-link>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-6 col-lg-4 mb-4">
-                                <div class="news-block text-center position-relative">
-                                    <div class="news-image shrink-effect position-relative gradient-bt">
-                                        <img src="../assets/images/news2.jpg" alt="" class="img-fluid" />
-                                        <div class="news-author text-white bg-primary text-white">
-                                            <span><i class="fa fa-user-o"></i> by drlaverne</span>
-                                            <span><i class="fa fa-calendar"></i> July 9 2018</span>
-                                        </div>
-                                    </div>
-                                    <div class="news-content">
-                                        <h5>Apostles Update</h5>
-                                        <p>Dear Friends Bindura Night of Miracles3000 people thronged the cathedral and rays...</p>
-                                        <router-link to="singledetail" class="btn btn-primary">Read More</router-link>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-6 col-lg-4 mb-4">
-                                <div class="news-block text-center position-relative">
-                                    <div class="news-image shrink-effect position-relative gradient-bt">
-                                        <img src="../assets/images/news3.jpg" alt="" class="img-fluid" />
-                                        <div class="news-author text-white bg-primary text-white">
-                                            <span><i class="fa fa-user-o"></i> by drlaverne</span>
-                                            <span><i class="fa fa-calendar"></i> July 9 2018</span>
-                                        </div>
-                                    </div>
-                                    <div class="news-content">
-                                        <h5>Apostles Update</h5>
-                                        <p>Dear Friends Bindura Night of Miracles3000 people thronged the cathedral and rays...</p>
-                                        <router-link to="singledetail" class="btn btn-primary">Read More</router-link>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-6 col-lg-4 mb-4">
-                                <div class="news-block text-center position-relative">
-                                    <div class="news-image shrink-effect position-relative gradient-bt">
-                                        <img src="../assets/images/news1.jpg" alt="" class="img-fluid" />
-                                        <div class="news-author text-white bg-primary text-white">
-                                            <span><i class="fa fa-user-o"></i> by drlaverne</span>
-                                            <span><i class="fa fa-calendar"></i> July 9 2018</span>
-                                        </div>
-                                    </div>
-                                    <div class="news-content">
-                                        <h5>Apostles Update</h5>
-                                        <p>Dear Friends Bindura Night of Miracles3000 people thronged the cathedral and rays...</p>
-                                        <router-link to="singledetail" class="btn btn-primary">Read More</router-link>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-6 col-lg-4 mb-4">
-                                <div class="news-block text-center position-relative">
-                                    <div class="news-image shrink-effect position-relative gradient-bt">
-                                        <img src="../assets/images/news2.jpg" alt="" class="img-fluid" />
-                                        <div class="news-author text-white bg-primary text-white">
-                                            <span><i class="fa fa-user-o"></i> by drlaverne</span>
-                                            <span><i class="fa fa-calendar"></i> July 9 2018</span>
-                                        </div>
-                                    </div>
-                                    <div class="news-content">
-                                        <h5>Apostles Update</h5>
-                                        <p>Dear Friends Bindura Night of Miracles3000 people thronged the cathedral and rays...</p>
-                                        <router-link to="singledetail" class="btn btn-primary">Read More</router-link>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-6 col-lg-4 mb-4">
-                                <div class="news-block text-center position-relative">
-                                    <div class="news-image shrink-effect position-relative gradient-bt">
-                                        <img src="../assets/images/news3.jpg" alt="" class="img-fluid" />
-                                        <div class="news-author text-white bg-primary text-white">
-                                            <span><i class="fa fa-user-o"></i> by drlaverne</span>
-                                            <span><i class="fa fa-calendar"></i> July 9 2018</span>
-                                        </div>
-                                    </div>
-                                    <div class="news-content">
-                                        <h5>Apostles Update</h5>
-                                        <p>Dear Friends Bindura Night of Miracles3000 people thronged the cathedral and rays...</p>
-                                        <router-link to="#" class="btn btn-primary">Read More</router-link>
                                     </div>
                                 </div>
                             </div>
@@ -182,5 +102,41 @@
 
 <script>
 export default{
+data:() =>({
+    ServiceJSON: [
+    {
+        img:  require('../assets/images/news1.jpg'),
+        title: "Apostles Update",
+        desc: "Dear Friends Bindura Night of Miracles3000 people thronged the cathedral and rays..."
+    },
+    {
+        img: require('../assets/images/news1.jpg'),
+        title:"Apostles Update",
+        desc:"Dear Friends Bindura Night of Miracles3000 people thronged the cathedral and rays..."
+    },
+    {
+        img: require('../assets/images/news1.jpg'),
+        title:"Apostles Update",
+        desc:"Dear Friends Bindura Night of Miracles3000 people thronged the cathedral and rays..."
+    },
+    {
+        img: require('../assets/images/news1.jpg'),
+        title:"Apostles Update",
+        desc:"Dear Friends Bindura Night of Miracles3000 people thronged the cathedral and rays..."
+    },
+    {
+        img: require('../assets/images/news1.jpg'),
+        title:"Apostles Update",
+        desc:"Dear Friends Bindura Night of Miracles3000 people thronged the cathedral and rays..."
+    },
+    {
+        img: require('../assets/images/news1.jpg'),
+        title:"Apostles Update",
+        desc:"Dear Friends Bindura Night of Miracles3000 people thronged the cathedral and rays..."
+    },
+    ]
+    })
+
+
 }
 </script>

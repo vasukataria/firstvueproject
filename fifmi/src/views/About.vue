@@ -8,7 +8,7 @@
                             <h2>About Us</h2>
                             <nav>
                                 <ol class="breadcrumb bg-transparent p-0 justify-content-center font-weight-bold">
-                                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                    <li class="breadcrumb-item"><router-link to="/">Home</router-link></li>
                                     <li class="breadcrumb-item active">About Us</li>
                                 </ol>
                             </nav>
@@ -52,50 +52,14 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0">
+                    <div class="col-12 col-md-6 col-lg-3" v-for="(obj,key) in ServiceJSON" :key="key">
                         <div class="choose-block text-center rounded">
                             <div class="choose-image">
-                                <img src="../assets/images/img1.jpg" class="img-fluid" alt="">
+                                <img v-bind:src="obj.img" class="img-fluid" alt="">
                             </div>
                             <div class="choose-content">
-                                <h6><span data-hover="Archbishop Dr. EH Guti">Archbishop Dr. EH Guti</span></h6>
-                                <p class="mb-0">Archbishop Dr. Ezekiel H. Guti is the founder of Forward in Faith Ministries International.</p>
-                                <a href="#"><u>Read More <i class="icofont icofont-double-right"></i></u></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0">
-                        <div class="choose-block text-center rounded">
-                            <div class="choose-image">
-                                <img src="../assets/images/img2.jpg" class="img-fluid" alt="">
-                            </div>
-                            <div class="choose-content">
-                                <h6><span data-hover="Archbishop Dr. EH Guti">Archbishop Dr. EH Guti</span></h6>
-                                <p class="mb-0">Archbishop Dr. Ezekiel H. Guti is the founder of Forward in Faith Ministries International.</p>
-                                <a href="#"><u>Read More <i class="icofont icofont-double-right"></i></u></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-3 mb-4 mb-md-0">
-                        <div class="choose-block text-center rounded">
-                            <div class="choose-image">
-                                <img src="../assets/images/img3.jpg" class="img-fluid" alt="">
-                            </div>
-                            <div class="choose-content">
-                                <h6><span data-hover="Archbishop Dr. EH Guti">Archbishop Dr. EH Guti</span></h6>
-                                <p class="mb-0">Archbishop Dr. Ezekiel H. Guti is the founder of Forward in Faith Ministries International.</p>
-                                <a href="#"><u>Read More <i class="icofont icofont-double-right"></i></u></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-3">
-                        <div class="choose-block text-center rounded">
-                            <div class="choose-image">
-                                <img src="../assets/images/img4.jpg" class="img-fluid" alt="">
-                            </div>
-                            <div class="choose-content">
-                                <h6><span data-hover="Archbishop Dr. EH Guti">Archbishop Dr. EH Guti</span></h6>
-                                <p class="mb-0">Archbishop Dr. Ezekiel H. Guti is the founder of Forward in Faith Ministries International.</p>
+                                <h6><span data-hover="Archbishop Dr. EH Guti">{{obj.title}}</span></h6>
+                                <p class="mb-0">{{obj.desc}}</p>
                                 <a href="#"><u>Read More <i class="icofont icofont-double-right"></i></u></a>
                             </div>
                         </div>
@@ -105,3 +69,34 @@
         </section>
         </div>
 </template>
+
+
+<script>
+export default{
+data:() =>({
+    ServiceJSON: [
+    {
+        img: require("../assets/images/img1.jpg"),
+        title:"Archbishop Dr. EH Guti",
+        desc:"Archbishop Dr. Ezekiel H. Guti is the founder of Forward in Faith Ministries International."
+    },
+    {
+        img: require("../assets/images/img2.jpg"),
+        title:"Archbishop Dr. EH Guti",
+        desc:"Archbishop Dr. Ezekiel H. Guti is the founder of Forward in Faith Ministries International."
+    },
+    {
+        img: require("../assets/images/img3.jpg"),
+        title:"Archbishop Dr. EH Guti",
+        desc:"Archbishop Dr. Ezekiel H. Guti is the founder of Forward in Faith Ministries International."
+    },
+    {
+        img: require("../assets/images/img4.jpg"),
+        title:"Archbishop Dr. EH Guti",
+        desc:"Archbishop Dr. Ezekiel H. Guti is the founder of Forward in Faith Ministries International."
+    },
+    ]
+    })
+}
+
+</script>

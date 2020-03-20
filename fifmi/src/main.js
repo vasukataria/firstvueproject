@@ -7,16 +7,6 @@ import './assets/css/icofont.css';
 import './assets/css/jquery.calendar.css';
 import './assets/css/swiper.min.css';
 import './assets/css/main.css';
-import 'jquery';
-//import './assets/js/jquery.calendar.js';
-//import './assets/js/lightgallery-all.min.js';
-import 'bootstrap';
-import './assets/js/green-audio-player.js';
-import './assets/js/isotope.pkgd.min.js';
-//import './assets/js/jquery.calendar.js';
-import './assets/js/popper.min.js';
-import './assets/js/swiper.min.js';
-
 
 
 

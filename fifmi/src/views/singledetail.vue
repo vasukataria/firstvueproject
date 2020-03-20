@@ -9,7 +9,7 @@
                             <h2>Single Detail</h2>
                             <nav>
                                 <ol class="breadcrumb bg-transparent p-0 justify-content-center font-weight-bold">
-                                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                    <li class="breadcrumb-item"><router-link to="/ ">Home</router-link></li>
                                     <li class="breadcrumb-item active">Single Detail</li>
                                 </ol>
                             </nav>
@@ -221,8 +221,3 @@
 
 </div>
 </template>
-
-<script>
-export default{
-}
-</script>

@@ -11,7 +11,7 @@
                             <h2>Events</h2>
                             <nav>
                                 <ol class="breadcrumb bg-transparent p-0 justify-content-center font-weight-bold">
-                                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                    <li class="breadcrumb-item"><router-link to="/">Home</router-link></li>
                                     <li class="breadcrumb-item active">Events</li>
                                 </ol>
                             </nav>
@@ -62,11 +62,11 @@
                         </div>
                         <nav>
                             <ul class="pagination mb-0 justify-content-center">
-                                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-                                <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                                <li class="page-item"><router-link class="page-link" to="#">Previous</router-link></li>
+                                <li class="page-item active"><router-link class="page-link" to="#">1</router-link></li>
+                                <li class="page-item"><router-link class="page-link" to="#">2</router-link></li>
+                                <li class="page-item"><router-link class="page-link" to="#">3</router-link></li>
+                                <li class="page-item"><router-link class="page-link" to="#">Next</router-link></li>
                             </ul>
                         </nav>
                     </div>
@@ -152,7 +152,7 @@ import $ from 'jquery'
 //import calendar from './assets/js/jquery.calendar.js'
 export default {
   name: '',
-  pata(){
+  abc(){
  return {
  calendar: "",
  }
@@ -166,40 +166,10 @@ export default {
 data:() =>({
     ServiceJSON: [
     {
-        img: require('@/assets/images/news1.jpg'),
+        img:  require('@/assets/images/news1.jpg'),
         time: "Monday 9: 00 am to 1:00 pm",
         title: "Po Box 16222  Victoria Australia",
         desc: "Sharing Our Faith & Love..."
-    },
-    {
-        img: require('@/assets/images/news1.jpg'),
-        time: "Monday 9: 00 am to 1:00 pm",
-        title:"Po Box 16222  Victoria Australia",
-        desc:"Sharing Our Faith & Love..."
-    },
-    {
-        img: require('@/assets/images/news1.jpg'),
-        time: "Monday 9: 00 am to 1:00 pm",
-        title:"Po Box 16222  Victoria Australia",
-        desc:"Sharing Our Faith & Love..."
-    },
-    {
-        img: require('@/assets/images/news1.jpg'),
-        time: "Monday 9: 00 am to 1:00 pm",
-        title:"Po Box 16222  Victoria Australia",
-        desc:"Sharing Our Faith & Love..."
-    },
-    {
-        img: require('@/assets/images/news1.jpg'),
-        time: "Monday 9: 00 am to 1:00 pm",
-        title:"Po Box 16222  Victoria Australia",
-        desc:"Sharing Our Faith & Love..."
-    },
-    {
-        img: require('@/assets/images/news1.jpg'),
-        time: "Monday 9: 00 am to 1:00 pm",
-        title:"Po Box 16222  Victoria Australia",
-        desc:"Sharing Our Faith & Love..."
     },
     ]
     })
